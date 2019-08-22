@@ -120,6 +120,7 @@ describe('checkShooted', function() {
         // Act
         const newInvadersAndMissiles = checkShooted(oldInvadersAndMissiles);
         // Assert
+        console.log(newInvadersAndMissiles);
         expect(newInvadersAndMissiles).to.deep.equal([
             [new Invader(200, 200, -1)],
             [new Missile(10, 200)]

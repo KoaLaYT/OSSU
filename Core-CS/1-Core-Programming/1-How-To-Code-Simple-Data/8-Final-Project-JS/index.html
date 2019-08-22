@@ -4,15 +4,85 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>A summary for How To Design: Simple Data</title>
+        <title>Space Invader Shooting Game</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+            rel="stylesheet"
+        />
         <link href="./style.css" rel="stylesheet" />
     </head>
     <body>
-        <canvas width="300" height="500"></canvas>
+        <header>
+            A little summary of the course --
+            <strong>How To Code: Simple Data</strong>
+        </header>
+        <main>
+            <section>
+                <p>
+                    This is the final project of How To Code: Simple Data, but
+                    written in HTML and JS!
+                </p>
+                <p>
+                    In this course, I learnt how to split a complex problem such
+                    as this game into several parts, so that at a time, I only
+                    have to focus one simple things, but still get the whole
+                    programm architecture in mind.
+                </p>
+                <p>
+                    This all happened because of three excellent recipes:
+                    <ul>
+                        <li><strong>How to Design Data</strong>: is the fundation, the data structure will strongly affect the function design and overall world design.</li>
+                        <li><strong>How to Design Function</strong>: the template is very useful especially in self referenced data structure. I think I understand recursive much better after this courses.</li>
+                        <li><strong>How to Design World</strong>: this make me write more clean and structured code, which is way more readable and maintanable.</li>
+                    </ul>
+                </p>
+                <p>
+                    As I am going to be a formal frontend programmer in this September, I decided to practice these skills in my day to day used language: JS!
+                </p>
+                <p>
+                    Here is how I wrote this game:
+                    <ol>
+                        <li>write the big-bang framework in JS:
+                            <p>I only implement the on-tick, to-draw, stop-when and on-key functionalities for the simplicity. With the help of <code>window.requestAnimationFrame</code>, the work is fairly easy.</p>
+                        </li>
+                        <li>then, just follow the recipe of HtDW:
+                            <ol>
+                                <li>domain analysis:
+                                    The is game is fairly simple, and all the analysis is already made by the course teacher.
+                                </li>
+                                <li>
+                                    define constants
+                                </li>
+                                <li>
+                                    define data definitions
+                                </li>
+                                <li>
+                                    write the structure of whole program, and inplement every helper functions.
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </p>
+                <p>And this is what I got:</p>
+            </section>
+            <section>
+                <canvas width="300" height="500"></canvas>
+                <button class="trigger">Start</button>
+            </section>
+        </main>
+
         <script src="./big-bang.js"></script>
         <!--
             <script src="./test/simple-countdown.js"></script>
         -->
         <script src="./space-invader.js"></script>
+        <script type="text/javascript">
+            const btn = document.querySelector('.trigger');
+            btn.addEventListener('click', e => {
+                btn.blur();
+                canvas.click(); // make keyboard interactive with canvas
+                main(new Game([], [], new Tank(150, 1)));
+            });
+        </script>
     </body>
 </html>

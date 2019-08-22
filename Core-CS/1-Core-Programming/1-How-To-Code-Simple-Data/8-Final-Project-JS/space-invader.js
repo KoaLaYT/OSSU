@@ -197,6 +197,7 @@ function checkOutOfScreen(missiles) {
 
 // Array<Invader> Array<Missile> -> Array<Invader> Array<Missile>
 // Step 4: check if any invader has been shooted
+/* first version
 function checkShooted([invaders = [], missiles = []] = []) {
     let leftInvaders = [...invaders];
     let leftMissiles = [...missiles];
@@ -215,6 +216,29 @@ function checkShooted([invaders = [], missiles = []] = []) {
         }
     }
     return [leftInvaders, leftMissiles];
+}*/
+function checkShooted([invaders, missiles]) {
+    if (invaders.length == 0 || missiles.length == 0) {
+        return [invaders, missiles];
+    } else {
+        const [firstInvader, ...restInvaders] = invaders;
+        const find = missiles.findIndex(
+            missile =>
+                Math.abs(firstInvader.x - missile.x) <= MISSILE_X_RANGE &&
+                Math.abs(firstInvader.y - missile.y) <= MISSILE_Y_RANGE
+        );
+        if (find == -1) {
+            const [leftInvaders, leftMissiles] = checkShooted([
+                restInvaders,
+                missiles
+            ]);
+            return [[firstInvader, ...leftInvaders], leftMissiles];
+        } else {
+            const leftMissiles = [...missiles];
+            leftMissiles.splice(find, 1);
+            return checkShooted([restInvaders, leftMissiles]);
+        }
+    }
 }
 
 // Game -> canvas
@@ -249,6 +273,3 @@ function response(g, key) {
             return g;
     }
 }
-
-// trigger:
-main(new Game([], [], new Tank(150, 1)));
