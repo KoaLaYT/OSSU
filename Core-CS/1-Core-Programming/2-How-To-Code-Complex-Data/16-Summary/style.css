@@ -1,0 +1,45 @@
+body {
+    font-family: 'Lato', sans-serif;
+    max-width: 68rem;
+    margin: 1rem auto;
+    padding: 0 5rem;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+header:not(.title)::before {
+    content: '➡️';
+    padding-right: 0.5rem;
+}
+
+.codeblock {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+pre {
+    width: 100%;
+    padding: 1.2rem 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #292929e1;
+    color: #fafafa;
+    position: relative;
+    white-space: pre-wrap;
+}
+pre:first-of-type {
+    margin-right: 0.5rem;
+    margin-left: -5rem;
+}
+pre:last-of-type {
+    margin-right: -5rem;
+}
+pre::before {
+    content: attr(data-lang);
+    position: absolute;
+    top: 0.2rem;
+    right: 0.5rem;
+    font-weight: bolder;
+    color: yellowgreen;
+}

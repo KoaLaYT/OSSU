@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+            rel="stylesheet"
+        />
+        <link href="./style.css" rel="stylesheet" />
+        <title>Summary for How to Code</title>
+    </head>
+    <body>
+        <header class="title">A rewrite of template in JS</header>
+        <main>
+            <p>
+                The template of the course
+                <strong>How To Code: Complex Data</strong>
+                is really powerful. As a recap and summary, I want to rewrite
+                all of them in my day to day working language: JS!
+            </p>
+            <section>
+                <header>1. Mutually Referential Types</header>
+                <main class="codeblock">
+                    <pre data-lang="racket">
+(define-struct person (name subs))
+;; Person is (make-person String ListOfPerson)
+
+;; ListOfPerson is one of:
+;;  - empty
+;;  - (cons Person ListOfPerson)
+
+#;
+(define (fn-for-person p)
+  (... (person-name p)
+       (fn-for-lop (person-subs p))))  ;mutual recursion
+
+#;
+(define (fn-for-lop lop)
+  (cond [(empty? lop) ...]
+        [else
+         (... (fn-for-person (first lop))  ;mutual recursion
+              (fn-for-lop (rest lop)))]))  ;natural recursion</pre
+                    >
+                    <pre data-lang="javascript">
+/**
+ * Person: {
+ *   name: string;
+ *   subs: Array&lt;Person&gt;;
+ * }
+ */
+
+ function fnForPerson(person) {
+     return ???fn(
+         p.name,
+         fnForLOP(p.subs)  // mutual recursion
+     );
+ }
+ function fnForLOP([firstP, ...restP]) {
+     return firstP === undefined
+        ? ???
+        : ???fn(
+            fnForPerson(firstP),  // mutual recursion
+            fnForLOP(restP)       // natural recursion
+        );
+ } </pre
+                    >
+                </main>
+            </section>
+            <section>
+                <header>2. Functions On 2 One-Of Data</header>
+                <main class="codeblock">
+                    <pre data-lang="racket">
+;; CROSS PRODUCT OF TYPE COMMENTS TABLE
+;;
+;;                                     lstb
+;;                           empty           (cons String LOS)                
+;;                                         |
+;; l   empty                               |
+;; s                         --------------------------------
+;; t   (cons String LOS)                   |
+;; a</pre
+                    >
+                    <pre data-lang="javascript">
+// same TABLE
+// just remember to do this analysis, 
+// and can merge some case together
+                    </pre>
+                </main>
+            </section>
+            <section>
+                <header>3. Backtracking Search</header>
+                <main class="codeblock">
+                    <pre data-lang="racket">
+(define (backtracking-fn x)
+    (local [(define (fn-for-x x)
+              (... (fn-for-lox (x-subs x))))
+
+            (define (fn-for-lox lox)
+              (cond [(empty? lox) false]
+                    [else
+                    (local [(define try 
+                              (fn-for-x (first lox)))] ;try first child
+                    (if (not (false? try))             ;successful?
+                        try                            ;if so produce that
+                        (fn-for-lox (rest lox))))]))]  ;or try rest
+
+      (fn-for-x x)))</pre
+                    >
+                    <pre data-lang="javascript">
+/**
+ * NaryTree: {
+ *   subs: Array&lt;NaryTree&gt;;   
+ * }
+ */
+
+function backtrackingFn(naryTree) {
+    function fnForNode(node) {
+        return ???fn(
+            node,
+            fnForLON(node.subs)
+        );
+    }
+    function fnForLON([firstNode, ...restNodes]) {
+        if (fisrtNode === undefined) {
+            return false;
+        }
+        return fnForNode(firstNode) ||  // try first child
+               fnForLON(restNodes);     // if success, just return it
+                                        // try rest otherwise
+    }
+    // just don't forget actually call the encaplusated function
+    return fnForNode(naryTree);
+}</pre
+                    >
+                </main>
+            </section>
+            <section>
+                <header>4. Generative Recursion</header>
+                <main class="codeblock">
+                    <pre data-lang="racket">
+(define (genrec-fn d)
+  (cond [(trivial? d) (trivial-answer d)]
+        [else
+        (... d 
+            (genrec-fn (next-problem d)))]))</pre
+                    >
+                    <pre data-lang="javascript">
+function generativeFn(data) {
+    if (trivial(data)) {
+        return trivialAnswer(data);
+    } else {
+        return ???fn(
+            data,
+            generativeFn(nextProblem(data));
+        )
+    }
+    // Wist List:
+    // [1] trivial: (data: Data) => boolean
+    //     determine if the recursion should end
+    // [2] trivialAnswer: (data: Data) => any
+    //     produce recursion end result
+    // [3] nextProblem: (data: Data) => Data
+    //     next data to be consumed by generative recursion
+}</pre
+                    >
+                </main>
+            </section>
+            <section>
+                <header>5. Context preserving accumulators</header>
+                <main class="codeblock">
+                    <pre data-lang="racket">
+;; Start from this template
+(define (skip1 lox)
+  (cond [(empty? lox) (...)]
+        [else
+         (... (first lox)
+              (skip1 (rest lox)))]))
+
+;; STEP 1: Encapsulate with local
+(define (skip1 lox0)
+  (local [(define (skip1 lox)
+            (cond [(empty? lox) (...)]
+                  [else
+                   (... (first lox)
+                        (skip1 (rest lox)))]))]
+    
+    (skip1 lox0)))
+
+;; STEP2: Add the accumulator
+(define (skip1 lox0)
+  (local [(define (skip1 lox acc)
+            (cond [(empty? lox) (... acc)]
+                  [else
+                   (... acc
+                        (first lox)
+                        (skip1 (rest lox)
+                               (... acc (first lox))))]))]
+    
+    (skip1 lox0 ...)))
+
+;; STEP3: Work out what information the accumulator represent
+;;        and how it will do that
+(define (skip1 lox0)
+  ;; acc is Natural; how many elements of lox to keep before next skip
+  ;; (skip1 (list 0 1 2 3 4) 1)
+  ;; (skip1 (list   1 2 3 4) 0)
+  ;; (skip1 (list     2 3 4) 1)
+  ;; (skip1 (list       3 4) 0)
+  ;; (skip1 (list         4) 1)
+  ;; (skip1 (list          ) 
+  (local [(define (skip1 lox acc)
+            (cond [(empty? lox) (... acc)]
+                  [else
+                   (... acc
+                        (first lox)
+                        (skip1 (rest lox)
+                               (... acc (first lox))))]))]
+    
+    (skip1 lox0 ...)))</pre
+                    >
+                    <pre data-lang="javascript">
+// Starter:
+function skip1([firstX, ...restXs]) {
+    return firstX === undefined
+        ? ???
+        : ???fn(
+            firstX,
+            skip1(restXs)
+        );
+}
+// Final:
+function skip1(lox) {
+    function $skip([firstX, ...restXs], acc) {
+        return firstX === undefined
+            ? ???fn(acc)
+            : ???fn(
+                acc,
+                firstX,
+                $skip(restXs, ???fn(acc, firstX))
+            );
+    }
+    $skip(lox, ???);
+}
+                    </pre>
+                </main>
+            </section>
+            <section>
+                <header>6. Others</header>
+                <p>
+                    Tail Recursion can be found at PROBLEM1:
+                    <a
+                        href="https://github.com/KoaLaYT/OSSU/blob/master/Core-CS/1-Core-Programming/2-How-To-Code-Complex-Data/15-Final-Project-JS/graph.js"
+                        >graph.js</a
+                    >
+                </p>
+                <p>
+                    Template blending can be found from PROBLEM2:
+                    <a
+                        href="https://github.com/KoaLaYT/OSSU/blob/master/Core-CS/1-Core-Programming/2-How-To-Code-Complex-Data/15-Final-Project-JS/schedule.js"
+                        >schedule.js</a
+                    >
+                </p>
+            </section>
+        </main>
+    </body>
+</html>
