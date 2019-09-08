@@ -11,3 +11,7 @@
     [A rewrite of template in JS](https://htmlpreview.github.io/?https://github.com/KoaLaYT/OSSU/blob/master/Core-CS/1-Core-Programming/2-How-To-Code-Complex-Data/16-Summary/index.html)
 
     1.3 Software Construction: Data Abstraction >> 2019.09.01 -
+
+2. Core Math:
+    
+    2.1 Linear Algebra - Foundations to Frontiers >> 2019.09.01 - 
