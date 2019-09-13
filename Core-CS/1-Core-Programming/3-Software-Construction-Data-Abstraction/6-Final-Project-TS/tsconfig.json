@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "es2015",
+        "outDir": "./src/js"
+    },
+    "include": ["src/ts/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

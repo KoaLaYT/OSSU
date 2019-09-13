@@ -1,0 +1,21 @@
+{
+    "name": "6-Final-Project-TS",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc && webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^12.7.5",
+        "typescript": "^3.6.3",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.8"
+    },
+    "dependencies": {
+        "tone": "^13.8.25"
+    }
+}

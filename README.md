@@ -10,8 +10,9 @@
     1.2 How To Code: Complex Data >> 2019.08.23 - 2019.08.31<br>
     [A rewrite of template in JS](https://htmlpreview.github.io/?https://github.com/KoaLaYT/OSSU/blob/master/Core-CS/1-Core-Programming/2-How-To-Code-Complex-Data/16-Summary/index.html)
 
-    1.3 Software Construction: Data Abstraction >> 2019.09.01 -
+    1.3 Software Construction: Data Abstraction >> 2019.09.01 - 2019.09.13<br>
+    [A TS version of final project](https://htmlpreview.github.io/?https://github.com/KoaLaYT/OSSU/blob/master/Core-CS/1-Core-Programming/3-Software-Construction-Data-Abstraction/6-Final-Project-TS/dist/index.html)
 
 2. Core Math:
-    
-    2.1 Linear Algebra - Foundations to Frontiers >> 2019.09.01 - 
+
+    2.1 Linear Algebra - Foundations to Frontiers >> 2019.09.01 -
