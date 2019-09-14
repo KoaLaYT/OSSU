@@ -52,7 +52,7 @@ public class RegistrarTest {
 
         testReg.addStudent(testTct1);
         testReg.addStudent(testTct2);
-        //testReg.promoteAllStudents();
+        testReg.promoteAllStudents();
 
         assertEquals(testTct1.getAcademicYear(),2);
         assertEquals(testTct2.getAcademicYear(),4);
