@@ -40,24 +40,47 @@ public class MovieGoerTest {
 
     @Test
     public void testBuyTicketNoUnderAgeException() {
-       // TODO: implement this test method where you do NOT expect the buyTicket() method to throw UnderAgeException
+       try {
+           mg1.buyTicket(m1);
+           assertEquals(mg1.getTicket(), t1);
+       } catch (Exception e) {
+           fail();
+       }
     }
 
     @Test
     public void testBuyTicketUnderAgeException() {
-        // TODO: implement this test method where you DO expect the buyTicket() method to throw UnderAgeException
+        try {
+            mg2.buyTicket(m1);
+            fail();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 
 
     @Test
     public void testBuyTicketNoShowingFullException() {
-        // TODO: implement this test method where you do NOT expect the buyTicket() method to throw ShowingFullException
+        try {
+            mg1.buyTicket(m1);
+        } catch (Exception e) {
+            fail();
+        }
     }
 
     @Test
     public void testBuyTicketShowingFullException() {
-        // TODO: implement this test method where you DO expect the buyTicket() method to throw ShowingFullException
+        while (!m1.isFull()) {
+            m1.addViewer();
+        }
+        assertTrue(m1.isFull());
 
+        try {
+            mg1.buyTicket(m1);
+            fail();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 
 
