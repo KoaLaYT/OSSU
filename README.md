@@ -13,6 +13,8 @@
     1.3 Software Construction: Data Abstraction >> 2019.09.01 - 2019.09.13<br>
     [A TS version of final project](https://htmlpreview.github.io/?https://github.com/KoaLaYT/OSSU/blob/master/Core-CS/1-Core-Programming/3-Software-Construction-Data-Abstraction/6-Final-Project-TS/dist/index.html)
 
+    1.4 Software Construction: Object-Oriented Design >> 2019.09.13 -
+
 2. Core Math:
 
     2.1 Linear Algebra - Foundations to Frontiers >> 2019.09.01 -
