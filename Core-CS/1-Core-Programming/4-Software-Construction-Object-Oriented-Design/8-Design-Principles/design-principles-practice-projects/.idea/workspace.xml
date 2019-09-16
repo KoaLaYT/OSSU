@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d257cc8a-8492-4587-9393-1c2a051ba1eb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/RefactoredHairSalonSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/src/model/BookingsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/src/model/HairSalon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/src/model/SpecialistSuggester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/src/model/Treatment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/src/test/HairSalonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonSolution/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/RefactoredHairSalonStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/src/model/HairSalon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/src/model/Treatment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/src/test/HairSalonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredHairSalonStarter/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/.idea/dictionaries/elisa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/RefactoredSimpleDrawingPlayerSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/runit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/model/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/model/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/players/DrawingPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/players/ShapePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/sound/ChannelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/sound/MidiSynth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/test/DrawingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/test/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/ui/DrawingEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/ui/tools/DeleteTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/ui/tools/MoveTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/ui/tools/PlayDrawingTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/ui/tools/PlayShapeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/ui/tools/ResizeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/ui/tools/ShapeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerSolution/src/ui/tools/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/.idea/dictionaries/elisa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/RefactoredSimpleDrawingPlayerStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/runit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/model/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/model/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/players/DrawingPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/players/ShapePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/sound/ChannelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/sound/MidiSynth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/test/DrawingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/test/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/ui/DrawingEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/ui/tools/DeleteTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/ui/tools/MoveTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/ui/tools/PlayDrawingTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/ui/tools/PlayShapeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/ui/tools/ResizeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/ui/tools/ShapeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/RefactoredSimpleDrawingPlayerStarter/src/ui/tools/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/design-principles-lecture-starters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-principles-lecture-starters/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/design-principles-practice-projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/.idea/GangesLSPStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/GangesLSPStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/model/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/model/GangesOrderShipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/model/OversizedBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/model/StandardSizedBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/.idea/GangesLSPStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/GangesLSPStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/model/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/model/GangesOrderShipper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesLSPStarter/out/model/OversizedBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/.idea/GangesSRPStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/GangesSRPStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/model/BookOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/model/CloudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/model/GangesServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/.idea/GangesSRPStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/GangesSRPStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/model/BookOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/model/GangesServiceManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/out/test/GangesServiceManagerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GangesSRPStarter/test/GangesServiceManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/.idea/Busy'sDiner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner1/Busy'sDiner1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner1/src/model/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner1/src/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner1/src/model/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner1/src/ui/Diner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner2/Busy'sDiner2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner2/src/model/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner2/src/model/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner2/src/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner2/src/model/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner2/src/ui/Diner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/Busy'sDiner3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/src/model/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/src/model/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/src/model/FOEEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/src/model/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/src/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/src/model/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/Busy'sDiner3/src/ui/Diner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/out/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/out/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/out/Busy'sDiner1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/out/Busy'sDiner2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/Busy'sDiner/out/Busy'sDiner3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/CoffeeMaker/CoffeeMaker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/CoffeeMaker/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/CoffeeMaker/src/model/CoffeeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/CoffeeMaker/src/test/CoffeeMakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/BingoStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/src/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/src/model/PlayerCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/src/model/observer_pattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/src/model/observer_pattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/src/model/random/BingoNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/src/model/random/NumberSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/src/model/random/RandomNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/BingoStarter/src/ui/BingoUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/MonsterMazeStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/src/model/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/src/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/src/model/Treasure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/src/ui/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/src/ui/MonsterMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/MonsterMazeStarter/src/ui/RefactoredGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/SillyWordGameStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/src/model/Phrase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/src/model/SillyWordGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/src/model/words/WordEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/src/model/words/WordEntryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/src/ui/PhraseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/ConsoleArcade/SillyWordGameStarter/src/ui/SillyWordGameUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/.idea/dictionaries/mickey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/FitLifeGymChainOOD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/GymChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/cardio/CardioMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/cardio/Elliptical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/cardio/IndoorBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/cardio/Treadmill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/gym/DeluxeGym.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/gym/FitnessClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/gym/Gym.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/members/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/members/MembershipLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/members/Visit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/weights/Barbell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/weights/Dumbbell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/weights/Plate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/weights/Weight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/model/weights/WeightMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/ui/GymChainInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/FitLifeGymChainOOD/src/ui/InfoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/.idea/dictionaries/mickey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/PetPairs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/PetPairsStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/model/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/model/PetStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/model/pets/Bunny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/model/pets/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/model/pets/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/model/pets/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/model/pets/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/PetPairsStarter/src/ui/PetPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/long-form-problem-starters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/out/production/Busy'sDiner1/META-INF/Busy'sDiner1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../long-form-problem-starters/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3-Software-Construction-Data-Abstraction/2-Control-And-Data-Flow-Structures/control-and-data-flow-lecture-starters" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3-Software-Construction-Data-Abstraction/2-Control-And-Data-Flow-Structures/control-and-data-flow-lecture-starters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3-Software-Construction-Data-Abstraction/2-Control-And-Data-Flow-Structures/long-form-problem-starters" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3-Software-Construction-Data-Abstraction/2-Control-And-Data-Flow-Structures/long-form-problem-starters" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1QvGSugtWPvW8RlynMMli5tEQ7V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GangesOrderShipper">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GangesOrderShipper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.GangesOrderShipper" />
+      <module name="GangesLSPStarter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.StandardSizedBook" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GangesServiceManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GangesSRPStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GangesServiceManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GangesOrderShipper" />
+      <item itemvalue="JUnit.GangesServiceManagerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GangesOrderShipper" />
+        <item itemvalue="JUnit.GangesServiceManagerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d257cc8a-8492-4587-9393-1c2a051ba1eb" name="Default" comment="" />
+      <created>1510012294746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510012294746</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>design-principles-practice-projects</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
