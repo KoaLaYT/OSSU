@@ -1,5 +1,7 @@
 package model.observer_pattern;
 
+import model.random.BingoNumber;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +24,10 @@ public abstract class Subject {
     }
 
     //EFFECTS: notifies observers of state change
-    public void notifyObservers(){ }
+    public void notifyObservers(BingoNumber num){
+        for (Observer ob : observers) {
+            ob.update((Object) num);
+        }
+    }
 
 }
