@@ -1,5 +1,5 @@
 import { MazeFactory } from './maze-factory';
-import { SuperWall } from '../variations/super-wall.class';
+import { SuperWall } from '../model/variations/super-wall';
 
 export class SuperMazeFactory extends MazeFactory {
     makeWall() {

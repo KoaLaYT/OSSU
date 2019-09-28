@@ -1,5 +1,5 @@
 import { MapSite } from './map-site.abstract';
-import { Room } from './room.class';
+import { Room } from './room';
 
 export class Door extends MapSite {
     private room1: Room;

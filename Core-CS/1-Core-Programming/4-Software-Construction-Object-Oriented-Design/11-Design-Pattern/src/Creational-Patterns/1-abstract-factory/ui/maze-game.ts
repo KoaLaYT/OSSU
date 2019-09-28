@@ -1,7 +1,7 @@
-import { SuperMazeFactory } from '../model/factories/super-maze-factory';
-import { MazeFactory } from '../model/factories/maze-factory';
-import { Direction } from './../model/room.class';
-import { Maze } from '../model/maze.class';
+import { SuperMazeFactory } from '../factories/super-maze-factory';
+import { MazeFactory } from '../factories/maze-factory';
+import { Direction } from '../model/room';
+import { Maze } from '../model/maze';
 
 export class MazeGame {
     private maze: Maze;

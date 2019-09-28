@@ -1,7 +1,7 @@
-import { Door } from './../model/door.class';
-import { Room, Direction } from './../model/room.class';
-import { Maze } from '../model/maze.class';
-import { Wall } from '../model/wall.class';
+import { Door } from '../model/door';
+import { Room, Direction } from '../model/room';
+import { Maze } from '../model/maze';
+import { Wall } from '../model/wall';
 
 export class MazeGame {
     private maze: Maze;

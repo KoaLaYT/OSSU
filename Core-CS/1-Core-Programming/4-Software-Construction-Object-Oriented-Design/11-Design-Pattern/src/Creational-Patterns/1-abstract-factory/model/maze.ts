@@ -1,4 +1,4 @@
-import { Room } from './room.class';
+import { Room } from './room';
 
 export class Maze {
     private rooms: Map<number, Room> = new Map();

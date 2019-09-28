@@ -1,7 +1,7 @@
-import { Maze } from '../maze.class';
-import { Door } from '../door.class';
-import { Wall } from '../wall.class';
-import { Room } from '../room.class';
+import { Maze } from '../model/maze';
+import { Door } from '../model/door';
+import { Wall } from '../model/wall';
+import { Room } from '../model/room';
 
 export class MazeFactory {
     makeMaze() {
