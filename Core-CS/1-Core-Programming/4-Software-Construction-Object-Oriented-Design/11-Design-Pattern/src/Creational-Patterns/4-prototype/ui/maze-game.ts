@@ -1,17 +1,19 @@
-import { SuperMazeFactory } from '../factory/super-maze-factory';
-import { MazeFactory } from '../factory/maze-factory';
-import { Direction } from '../model/room';
+import { ThickWall } from './../model/thick-wall';
+import { MazePrototypeFactory } from '../factory/maze-prototype-factory';
+import { MazeFactory } from '../factory/maze-factory.abstract';
+import { Door } from '../model/door';
+import { Room, Direction } from '../model/room';
 import { Maze } from '../model/maze';
+import { Wall } from '../model/wall';
 
 export class MazeGame {
     private maze: Maze;
-    /**
-     * this factory can easily be replaced by its subclass
-     * which may produce some subclass of Wall, Door or Room
-     * and the createMaze did't need to change at all
-     */
-    // private factory = new MazeFactory();
-    private factory = new SuperMazeFactory();
+    private factory: MazeFactory = new MazePrototypeFactory(
+        new Maze(),
+        new ThickWall(), // new Wall(),
+        new Room(0),
+        new Door(new Room(0), new Room(1))
+    );
 
     constructor() {
         this.maze = this.createMaze(this.factory);
