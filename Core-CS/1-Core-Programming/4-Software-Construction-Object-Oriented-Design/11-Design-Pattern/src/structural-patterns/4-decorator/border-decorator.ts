@@ -13,6 +13,7 @@ export class BorderDecorator extends Decorator {
         // detail omitted
     }
 
+    // override the default
     draw() {
         super.draw();
         this.drawBorder();
