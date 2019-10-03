@@ -1,6 +1,6 @@
 import { GlyphContext } from './glyph-context';
 import { Character } from './character.glyph';
-import { Glyph } from './glyph';
+import { Glyph } from './glyph.abstract';
 
 export class Row extends Glyph {
     private chars: Character[];
