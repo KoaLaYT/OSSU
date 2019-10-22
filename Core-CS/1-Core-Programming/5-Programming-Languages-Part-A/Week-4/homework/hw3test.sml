@@ -50,5 +50,7 @@ val test11c = match (Tuple [Const 1, Const 2], TupleP [Wildcard, Variable "c"])
 val test11d = match (Constructor ("xixi", Const 1), ConstructorP ("xixi", ConstP
 1)) = SOME []
 *)
-
+val test = match (Tuple[Const 17,Unit,Const 4,Constructor ("egg",Const 4),Constructor ("egg",Constructor ("egg",Const 4))],TupleP[Wildcard,Wildcard])
+(*
 val test12 = first_match Unit [UnitP] = SOME []
+*)
