@@ -16,6 +16,8 @@
     1.4 Software Construction: Object-Oriented Design >> 2019.09.13 - 2019.09.22
     
     1.5 Programming Languages, Part A >> 2019.10.03 - 2019.10.24
+    
+    1.6 Programming Languages, Part B >> 2019.10.24 - 
 
 2. Core Math:
 
