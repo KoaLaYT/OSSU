@@ -17,7 +17,7 @@
     
     1.5 Programming Languages, Part A >> 2019.10.03 - 2019.10.24
     
-    1.6 Programming Languages, Part B >> 2019.10.24 - 
+    1.6 Programming Languages, Part B >> 2019.10.24 - 2019.11.05
 
 2. Core Math:
 
