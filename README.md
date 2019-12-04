@@ -19,6 +19,8 @@
     
     1.6 Programming Languages, Part B >> 2019.10.24 - 2019.11.05
 
+    1.7 Programming Languages, Part C >> 2019.12.04 -
+
 2. Core Math:
 
     2.1 Linear Algebra - Foundations to Frontiers >> 2019.09.01 -
