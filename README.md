@@ -27,4 +27,4 @@
     
 3. Core System:
     
-    3.3 Introduction to Computer Networking >> 2019.12.24
+    3.3 Introduction to Computer Networking >> 2019.12.24 - 
