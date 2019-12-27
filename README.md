@@ -24,3 +24,7 @@
 2. Core Math:
 
     2.1 Linear Algebra - Foundations to Frontiers >> 2019.09.01 -
+    
+3. Core System:
+    
+    3.3 Introduction to Computer Networking >> 2019.12.24
