@@ -241,3 +241,134 @@ export class RDTV3 extends RDTV2_1 {
     });
   }
 }
+
+export class RDTGBN extends RDT {
+  // header info
+  private header;
+  // server side
+  private packs: Data[] = [];
+  private timer: NodeJS.Timeout;
+  private base = 0;
+  private nextSeqNo = 0;
+  private readonly winSize = 2;
+  // client side
+  private expectedSeq = 0;
+
+  rdtSend(
+    srcIP: string,
+    srcPort: number,
+    distIP: string,
+    distPort: number,
+    data: Data
+  ): void {
+    this.packs = data.split(/\s+/);
+    this.header = {
+      srcIP,
+      distIP,
+      seg: { srcPort, distPort }
+    };
+    this.sendPacks();
+  }
+
+  extract(dgram: Datagram): Data | false {
+    // client side
+    if (dgram.seg.data) {
+      let data: Data | false = false;
+      if (!this.isCorrupt(dgram) && dgram.seg.seqNo === this.expectedSeq) {
+        this.expectedSeq++;
+        data = dgram.seg.data;
+      }
+      Network.udtSendV3({
+        srcIP: dgram.distIP,
+        distIP: dgram.srcIP,
+        seg: {
+          srcPort: dgram.seg.distPort,
+          distPort: dgram.seg.srcPort,
+          ack: true,
+          checksum: 0,
+          seqNo: this.expectedSeq
+        }
+      });
+      return data;
+    }
+    // server side
+    if (!this.isACKCorrupt(dgram) && this.base < dgram.seg.seqNo) {
+      this.base = dgram.seg.seqNo;
+      clearInterval(this.timer);
+      this.timer = undefined;
+      this.sendNextPack();
+    }
+  }
+
+  private sendNextPack() {
+    if (this.base > this.packs.length - 1) {
+      clearInterval(this.timer);
+      process.exit(0);
+    }
+    if (this.nextSeqNo > this.base + this.winSize) return;
+    if (!this.timer) {
+      this.timer = setInterval(() => {
+        this.sendPacks();
+      }, 1500);
+    }
+    const pack = this.packs[this.nextSeqNo];
+    if (!pack) return;
+    Network.udtSendV3({
+      ...this.header,
+      seg: {
+        ...this.header.seg,
+        checksum: this.checksum(pack),
+        seqNo: this.nextSeqNo,
+        data: pack
+      }
+    });
+    this.nextSeqNo++;
+  }
+
+  private sendPacks() {
+    if (this.base > this.packs.length - 1) {
+      clearInterval(this.timer);
+      process.exit(0);
+    }
+    if (this.nextSeqNo > this.base + this.winSize) return;
+    if (!this.timer) {
+      this.timer = setInterval(() => {
+        this.sendPacks();
+      }, 1500);
+    }
+    this.nextSeqNo = this.base;
+    for (let seqNo = this.base; seqNo < this.base + this.winSize; seqNo++) {
+      const pack = this.packs[seqNo];
+      if (!pack) return;
+      Network.udtSendV3({
+        ...this.header,
+        seg: {
+          ...this.header.seg,
+          checksum: this.checksum(pack),
+          seqNo,
+          data: pack
+        }
+      });
+      this.nextSeqNo++;
+    }
+  }
+
+  private checksum(data: Data) {
+    const sum = data
+      .split("")
+      .map(c => c.charCodeAt(0))
+      .reduce((acc, ele) => acc + ele);
+
+    return -sum;
+  }
+
+  private isCorrupt(dgram: Datagram) {
+    return dgram.seg.checksum !== this.checksum(dgram.seg.data);
+  }
+
+  // for simplicity and compatiable with previous RDT design
+  private isACKCorrupt(dgram: Datagram) {
+    if (dgram.seg.ack) return dgram.seg.checksum !== 0;
+    if (dgram.seg.nak) return true;
+  }
+}

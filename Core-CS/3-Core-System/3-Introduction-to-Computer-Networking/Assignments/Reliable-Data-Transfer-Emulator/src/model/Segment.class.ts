@@ -8,5 +8,6 @@ export abstract class Segment {
   ack?: boolean; // for V2.0
   nak?: boolean; // for V2.0
   seq?: 0 | 1; // for V2.1
+  seqNo?: number; // for GBN
   data?: Data; // ACK/NAK has no data
 }

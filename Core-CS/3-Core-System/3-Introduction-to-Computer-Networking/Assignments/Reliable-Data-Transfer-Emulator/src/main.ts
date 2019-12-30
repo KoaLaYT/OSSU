@@ -1,4 +1,4 @@
-import { RDTV1, RDTV2, RDTV2_1, RDTV3 } from "./model/RDT.class";
+import { RDTV1, RDTV2, RDTV2_1, RDTV3, RDTGBN } from "./model/RDT.class";
 import { Host } from "./model/Host.class";
 import * as Network from "./Network";
 
@@ -8,7 +8,8 @@ const RDTVersions = {
   "1": RDTV1,
   "2": RDTV2,
   "2.1": RDTV2_1,
-  "3": RDTV3
+  "3": RDTV3,
+  GBN: RDTGBN
 };
 
 const RDT = RDTVersions[version];

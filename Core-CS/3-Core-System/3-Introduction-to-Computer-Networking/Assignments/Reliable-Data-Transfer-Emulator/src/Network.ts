@@ -137,12 +137,13 @@ async function sendDgram(
   } = dgram;
   console.log(
     `\nSEND ${new Date().toISOString()} ${srcIP}:${srcPort} => ${distIP}:${distPort} ${data ||
-      (ack ? "ACK" : "NAK")} ${seq ?? ""}`
+      (ack ? "ACK" : "NAK")} ${seq ?? ""}${dgram.seg.seqNo ?? ""}`
   );
   dgram = await rtt(dgram, prob, corruptAll, lossy);
   console.log(
     `RECV ${new Date().toISOString()} ${distIP}:${distPort} <= ${srcIP}:${srcPort} ${dgram
-      .seg.data || (dgram.seg.ack ? "ACK" : "NAK")} ${dgram.seg.seq ?? ""}`
+      .seg.data || (dgram.seg.ack ? "ACK" : "NAK")} ${dgram.seg.seq ??
+      ""}${dgram.seg.seqNo ?? ""}`
   );
 
   host.buffer.push(dgram);
