@@ -27,4 +27,6 @@
     
 3. Core System:
     
-    3.3 Introduction to Computer Networking >> 2019.12.24 - 
+    3.3 Introduction to Computer Networking >> 2019.12.24 - 2020.02.21
+
+    3.4 Hack the kernel >> 2020.02.22
