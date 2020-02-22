@@ -1,0 +1,3 @@
+[submodule "Core-CS/3-Core-System/4-Hack-The-Kernel/Ops-Class/os161"]
+	path = Core-CS/3-Core-System/4-Hack-The-Kernel/Ops-Class/os161
+	url = https://github.com/ops-class/os161.git
