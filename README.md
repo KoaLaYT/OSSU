@@ -30,3 +30,7 @@
     3.3 Introduction to Computer Networking >> 2019.12.24 - 2020.02.21
 
     3.4 Hack the kernel >> 2020.02.22
+   
+4. Core Theory:
+   
+    4.1 Divide and Conquer, Sorting and Searching, and Randomized Algorithms >> 2020.06.20
