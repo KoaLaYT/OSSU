@@ -2,101 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c0a953-a6cc-4dad-baed-ba3ad9071538" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/final-project-starter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterMapperStarter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/TwitterCapture.jobj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/TwitterCapture_1.jobj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/boring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/BasicFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/Filter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/NotFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/Parser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/Scanner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/SyntaxError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/test/TestFilters$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/test/TestFilters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/test/TestParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/filters/test/TestScanner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/query/Query.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/twitter/LiveTwitterSource$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/twitter/LiveTwitterSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/twitter/PlaybackTwitterSource$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/twitter/PlaybackTwitterSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/twitter/TwitterSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/twitter/test/TestPlaybackTwitterSource$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/twitter/test/TestPlaybackTwitterSource$TestObserver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/twitter/test/TestPlaybackTwitterSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/Application$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/Application$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/Application$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/ContentPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/ContentPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/ContentPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/MapMarkerSimple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/NewQueryPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/NewQueryPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/ui/NewQueryPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/util/ImageCache$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/util/ImageCache$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/util/ImageCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/util/ObjectSink.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/util/ObjectSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/util/SphericalGeometry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/util/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/util/test/TestImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/AndFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/BasicFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/NotFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/OrFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/SyntaxError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/test/TestFilters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/test/TestParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/test/TestScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/query/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twitter/LiveTwitterSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twitter/PlaybackTwitterSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twitter/TwitterSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twitter/test/TestPlaybackTwitterSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/ContentPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/MapMarkerSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/NewQueryPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ImageCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ObjectSink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ObjectSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/SphericalGeometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/test/TestImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3-Software-Construction-Data-Abstraction/2-Control-And-Data-Flow-Structures/control-and-data-flow-lecture-starters" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3-Software-Construction-Data-Abstraction/2-Control-And-Data-Flow-Structures/control-and-data-flow-lecture-starters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3-Software-Construction-Data-Abstraction/2-Control-And-Data-Flow-Structures/long-form-problem-starters" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3-Software-Construction-Data-Abstraction/2-Control-And-Data-Flow-Structures/long-form-problem-starters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../3-Core-System/4-Hack-The-Kernel/Ops-Class/os161" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../3-Core-System/4-Hack-The-Kernel/Ops-Class/os161" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="210projtest" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,12 +74,16 @@
   </component>
   <component name="ProjectId" id="1R8RLvVUhSA3YYf1k1tji0IChha" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -183,18 +99,6 @@
       <recent name="util" />
       <recent name="filters.test" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -357,7 +261,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="210projtest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -370,7 +274,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -407,9 +311,9 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CaptureTwitterSourceData" />
+      <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.TestParser" />
       <item itemvalue="JUnit.TestScanner" />
-      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -420,6 +324,9 @@
         <item itemvalue="Application.CaptureTwitterSourceData" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INTERFACES" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -447,38 +354,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestImage_testImage - 2017.09.22 at 12h 46m 23s.xml">
-      <configuration name="TestImage.testImage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestParser - 2017.09.26 at 09h 36m 27s.xml">
-      <configuration name="TestParser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestParser - 2017.09.26 at 09h 37m 50s.xml">
-      <configuration name="TestParser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlaybackTwitterSource - 2017.09.22 at 14h 13m 16s.xml">
-      <configuration name="TestPlaybackTwitterSource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlaybackTwitterSource - 2017.09.22 at 14h 14m 44s.xml">
-      <configuration name="TestPlaybackTwitterSource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlaybackTwitterSource - 2017.09.22 at 14h 16m 16s.xml">
-      <configuration name="TestPlaybackTwitterSource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlaybackTwitterSource - 2017.09.22 at 14h 17m 42s.xml">
-      <configuration name="TestPlaybackTwitterSource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestScanner - 2017.09.26 at 09h 37m 54s.xml">
-      <configuration name="TestScanner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestScanner - 2017.09.26 at 09h 42m 03s.xml">
-      <configuration name="TestScanner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestScanner - 2017.09.26 at 09h 44m 00s.xml">
-      <configuration name="TestScanner" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="128225000" />
   </component>
@@ -504,6 +379,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="460" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587657348317">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="460" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1587657348317" />
+    <state x="353" y="213" key="NewModule_or_Project.wizard" timestamp="1587657755857">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="353" y="213" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1587657755857" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1587657395977">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587657395977" />
+    <state x="88" y="72" key="new project wizard" timestamp="1587657701115">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="88" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1587657701115" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587657382726">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587657382726" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,79 +418,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>210project</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
