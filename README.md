@@ -33,4 +33,6 @@
    
 4. Core Theory:
    
-    4.1 Divide and Conquer, Sorting and Searching, and Randomized Algorithms >> 2020.06.20
+    4.1 Divide and Conquer, Sorting and Searching, and Randomized Algorithms >> 2020.06.20 - 2020.06.28
+
+    4.2 Graph Search, Shortest Path, and Data Structures >> 2020.07.03 - 
