@@ -23,6 +23,8 @@
 
     1.8 Object-Oriented Design >> 2021.11.04 - 2021.11.14
 
+    1.9 Design-Patterns >> 2021.11.15 - 2021.11.28
+
 2. Core Math:
 
     2.1 Linear Algebra - Foundations to Frontiers >> 2019.09.01 -
