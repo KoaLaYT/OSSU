@@ -13,7 +13,7 @@
         "@types/node": "^12.7.5",
         "typescript": "^3.6.3",
         "webpack": "^4.39.3",
-        "webpack-cli": "^3.3.8"
+        "webpack-cli": "^3.3.12"
     },
     "dependencies": {
         "tone": "^13.8.25"
